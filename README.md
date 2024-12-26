@@ -1,0 +1,1 @@
+This repository demonstrates a common error in React Native when using the `useRef` hook. The bug occurs when accessing a component's properties or methods via a ref before the component has finished mounting. The solution demonstrates how to correctly access the ref only after the component is mounted, preventing the error.
